@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d47a1"/>
+      <stop offset="100%" stop-color="#1565c0"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00bcd4"/>
+      <stop offset="100%" stop-color="#1565c0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Geometric pattern -->
+  <circle cx="513" cy="152" r="24" fill="#1565c0" opacity="0.08"/>
+    <circle cx="1283" cy="218" r="37" fill="#1565c0" opacity="0.10"/>
+    <circle cx="145" cy="710" r="80" fill="#1565c0" opacity="0.12"/>
+    <circle cx="850" cy="316" r="83" fill="#1565c0" opacity="0.12"/>
+    <circle cx="497" cy="80" r="52" fill="#1565c0" opacity="0.09"/>
+    <circle cx="664" cy="146" r="63" fill="#1565c0" opacity="0.15"/>
+    <rect x="1101" y="282" width="60" height="71" rx="8" fill="#0d47a1" opacity="0.08" transform="rotate(28, 384, 381)"/>
+    <rect x="182" y="508" width="62" height="71" rx="8" fill="#0d47a1" opacity="0.13" transform="rotate(28, -28, 285)"/>
+    <rect x="809" y="182" width="68" height="49" rx="8" fill="#0d47a1" opacity="0.06" transform="rotate(34, 58, 119)"/>
+    <rect x="286" y="-53" width="63" height="33" rx="8" fill="#0d47a1" opacity="0.10" transform="rotate(21, 39, 325)"/>
+    <rect x="706" y="324" width="60" height="28" rx="8" fill="#0d47a1" opacity="0.04" transform="rotate(32, -99, 517)"/>
+    <rect x="-15" y="550" width="80" height="35" rx="8" fill="#0d47a1" opacity="0.14" transform="rotate(4, 993, 36)"/>
+    <rect x="1134" y="298" width="38" height="74" rx="8" fill="#0d47a1" opacity="0.05" transform="rotate(10, 823, 623)"/>
+    <rect x="1097" y="-11" width="55" height="58" rx="8" fill="#0d47a1" opacity="0.06" transform="rotate(22, 1157, 627)"/>
+    <polygon points="492,624 573,786 411,786" fill="#1565c0" opacity="0.06"/>
+    <polygon points="840,639 929,817 751,817" fill="#1565c0" opacity="0.05"/>
+    <polygon points="826,447 886,567 766,567" fill="#1565c0" opacity="0.03"/>
+    <polygon points="531,-112 605,36 457,36" fill="#1565c0" opacity="0.05"/>
+
+  <!-- Wave at bottom -->
+  <path d="M0,558 C360,594 840,522 1200,558 L1200,630 L0,630Z" fill="#1565c0" opacity="0.3"/>
+
+  <!-- 중앙 텍스트 카드 -->
+  <rect x="80" y="195" width="1040" height="260" rx="20" fill="rgba(0,0,0,0.35)" filter="url(#blur-bg)"/>
+  <filter id="blur-bg"><feGaussianBlur stdDeviation="8"/></filter>
+
+  <text x="600" y="270" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="2">
+    Matsuyama onsen 안내
+  </text>
+  <text x="600" y="330" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="22" font-weight="400" fill="rgba(255,255,255,0.85)">
+    Matsuyama — 정보
+  </text>
+
+  <!-- Accent line -->
+  <line x1="450" y1="355" x2="750" y2="355" stroke="#00bcd4" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- 하단 CTA -->
+  <rect x="440" y="385" width="320" height="40" rx="20" fill="#00bcd4" opacity="0.9"/>
+  <text x="600" y="411" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="16" font-weight="600" fill="#ffffff">
+    ▼ 자세히 보기
+  </text>
+
+  <!-- 상단 브랜드 -->
+  <text x="60" y="55" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.6)">
+    Matsuyama Matsuyama onsen 안내 — 정보
+  </text>
+</svg>

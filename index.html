@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matsuyama Onsen | 현지인이 꼽은 최적의 온천 굥험 (feat. 뉴비코스프레)</title>
+    <meta name="description" content="마쓰야마 온천 탐구 시작. '잘 몰라서 그런데...'부터 판을 뒤집어 놓겠습니다. 최고의 로컬 스팟, 숨겨진 매력까지 팩트 체크 완료. 이 정도면 국룰이죠.">
+    <meta name="keywords" content="Matsuyama onsen, 마쓰야마 온천, 일본 온천 추천, Matsuyama 숙소, Onsen Guide, 지역 정보">
+    <meta name="canonical" content="https://www.yourdomain.com/">
+    <!-- 필수 메타 태그 -->
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+
+    <!-- OG & Twitter Card -->
+    <meta property="og:title" content="Matsuyama Onsen | 현지인이 꼽은 최적의 온천 경험 (feat. 뉴비코스프레)">
+    <meta property="og:description" content="마쓰야마 온천 탐구 시작. '잘 몰라서 그런데...'부터 판을 뒤집어 놓겠습니다. 최고의 로컬 스팟, 숨겨진 매력까지 팩트 체크 완료. 이 정도면 국룰이죠.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourdomain.com/">
+    <meta property="og:image" content="og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourHandle">
+    <meta name="twitter:title" content="Matsuyama Onsen | 현지인이 꼽은 최적의 온천 경험 (feat. 뉴비코스프레)">
+    <meta name="twitter:description" content="마쓰야마 온천 탐구 시작. '잘 몰라서 그런데...'부터 판을 뒤집어 놓겠습니다. 최고의 로컬 스팟, 숨겨진 매력까지 팩트 체크 완료. 이 정도면 국룰이죠.">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Matsuyama Onsen | 홈",
+      "description": "마쓰야마 오ᅩᆫ천의 모든 것. 객관적인 분석을 기반으로 가장 효율적인 코스를 제시하ᅡᆸ니다.",
+      "url": "https://www.yourdomain.com/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Matsuyama Guide (By [Persona Name])"
+      },
+      "mainEntity": {
+        "@type": "LocalBusiness"
+      }
+    }
+    </script>
+
+    <style>
+        /* VARIABLES & BASE */
+        :root {
+            --color-primary: #111111;
+            --color-secondary: #ffffff;
+            --color-accent: #2563eb;
+            --font-family: system-ui, Inter, sans-serif;
+            --gap-md: 16px;
+            --padding-lg: 24px;
+            --section-gap-xl: 40px;
+        }
+
+        /* BASE STYLES */
+        body {
+            font-family: var(--font-family);
+            color: var(--color-primary);
+            background-color: var(--color-secondary);
+            margin: 0;
+            padding: 0;
+            line-height: 1.65;
+            box-sizing: border-box;
+        }
+
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        /* LAYOUT */
+        .container {
+            max-width: 960px; /* Fixed width for strict grid adherence */
+            margin: 0 auto;
+            padding: 0 var(--padding-lg);
+        }
+
+        /* TYPOGRAPHY & ELEMENTS */
+        h1, h2, h3, h4 {
+            font-weight: 700; /* Bold default for impact */
+            line-height: 1.2;
+            margin-top: 0;
+            margin-bottom: var(--gap-md);
+        }
+
+        h1 { font-size: 3rem; } /* Large headline */
+        h2 { font-size: 2.25rem; border-bottom: 1px solid #e0e0e0; padding-bottom: 10px; margin-bottom: var(--section-gap-xl); }
+        h3 { font-size: 1.5rem; }
+
+        p, li {
+            font-size: 1.1rem;
+            margin-bottom: 16px; /* Consistent spacing */
+        }
+        
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: #1e40af; /* Slightly darker accent on hover */
+        }
+
+        /* HEADER & NAV */
+        header {
+            border-bottom: 1px solid var(--color-primary);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            background-color: var(--color-secondary);
+            z-index: 100;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* MAIN CONTENT SECTIONS */
+        main section {
+            padding-bottom: var(--section-gap-xl);
+            border-bottom: 1px solid #e0e0e0; /* Section Divider Rule */
+        }
+
+        /* HERO SECTION SPECIFIC */
+        .hero {
+            padding: 80px var(--padding-lg) 60px;
+            text-align: center;
+            border-bottom: 2px solid var(--color-primary); /* Stronger divider for hero */
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .hero p {
+            font-size: 1.4rem;
+            max-width: 780px;
+            margin: 0 auto 30px;
+        }
+
+        /* CARD GRID (UGC Reviews) */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--gap-md);
+            margin-top: 30px;
+        }
+
+        .review-card {
+            border: 1px solid #e0e0e0;
+            padding: var(--padding-lg);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(17, 17, 17, 0.08); /* Subtle shadow */
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .reviewer-name {
+            font-weight: 700;
+            font-size: 1.15rem;
+        }
+        
+        .review-date {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Rating Display (Stars via SVG/CSS) */
+        .rating {
+            display: flex;
+            gap: 2px;
+            align-items: center;
+        }
+
+        .star {
+            width: 18px;
+            height: 18px;
+            fill: #ffc700; /* Gold/Yellow color for stars */
+        }
+        /* Empty star fill (used by background if necessary, but here we just use solid) */
+
+        .review-card p {
+            margin: 0;
+        }
+
+
+        /* FOOTER */
+        footer {
+            background-color: var(--color-primary);
+            color: #aaaaaa;
+            padding: 30px 0;
+            text-align: center;
+            border-top: 1px solid #333333;
+        }
+
+        /* RESPONSIVENESS */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 1.8rem; }
+            
+            .nav-content {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            /* Hamburger Menu Integration */
+            .menu-toggle {
+                display: block; /* Show toggle on mobile */
+                cursor: pointer;
+                font-size: 28px;
+                color: var(--color-primary);
+                line-height: 1;
+            }
+
+            nav {
+                /* Hide default nav list, show hamburger icon area */
+                display: none; 
+                flex-direction: column;
+                width: 100%; /* Take full width when active */
+            }
+            
+            nav.active {
+                 display: flex;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 15px; /* Smaller gap for vertical stacking */
+                width: 100%;
+            }
+        }
+
+        /* Mobile specific adjustments (to ensure hamburger works) */
+        .mobile-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .nav-content {
+                flex-direction: row; /* Reverting to classic flex layout for mobile wrapper */
+                justify-content: space-between;
+                align-items: center;
+            }
+            /* Adjusting the main nav structure inside mobile view */
+             .nav-content .logo { margin-right: auto; } /* Pushes logo left */
+        }
+
+    </style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="mobile-wrapper">
+                <div class="logo">
+                    <h1>Matsuyama Guide</h1>
+                </div>
+                <!-- Hamburger Icon (Visible on Mobile) -->
+                <div class="menu-toggle" id="menuToggle">&#9728;</div> 
+                
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="#onsen-intro">온천 소개</a></li>
+                        <li><a href="#keyword-focus">핵심 키워드</a></li>
+                        <li><a href="#review-list">사용자 리뷰</a></li>
+                        <li><a href="#">지도 보기 (Coming Soon)</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+
+<!-- SEO Visual 1: Matsuyama onsen 안내 Editorial Apple Hero -->
+<div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 — Matsuyama Matsuyama onsen 안내" 
+     style="width:100%;padding:64px 24px;background:#faf9f6;border-bottom:1px solid #e5e5e0;text-align:left;margin:32px 0">
+  <div style="max-width:800px;margin:0 auto">
+    <div style="font-family:serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3em;color:#8a7355;margin-bottom:16px">— EDITORIAL PROFILES</div>
+    <div style="font-size:3.5em;line-height:1.1;font-weight:400;font-family:serif;color:#1c1c1e;letter-spacing:-0.03em;margin-bottom:16px">Matsuyama onsen 안내</div>
+    <p style="font-size:1.05rem;line-height:1.6;color:#1c1c1e;opacity:0.85;max-width:600px">Matsuyama를 중심으로 신뢰할 수 있는 서비스에 관한 독립적이고 깊이 있는 정보를 제공합니다.</p>
+  </div>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"Matsuyama onsen 안내","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+            <div class="container">
+                <h1>Matsuyama Onsen: 그냥 온천? ㄴㄴ. 분석 끝.</h1>
+                <p>잘 몰라서 그런데... 이게 진짜 좋은 곳인지, 아니면 광고만ᆫ 잔뜩 친 허세 덩어리인 건지 모르겠거든요. 그래서 제가 직접 파헤쳐 봤습니다. 이 정도는 알아야죠.</p>
+            </div>
+        </section>
+
+<!-- SEO Visual 2: 정보 Cardless Editorial List -->
+<div class="seo-visual-cards" role="img" aria-label="Matsuyama onsen 안내 정보 — 신뢰할 수 있는 서비스" 
+     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">특화</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">Matsuyama onsen 안내</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">다수 실적</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">Matsuyama onsen 안내</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">고품질</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">Matsuyama onsen 안내</span>
+  </div>
+</div>
+
+        <!-- SECTION 1: INTRO & CORE VALUE PROPOSITION -->
+        <section id="onsen-intro">
+            <div class="container">
+                <h2>Matsuyama 온천, 왜 가야 하냐고요?</h2>
+                <p style="font-size: 1.2rem; font-weight: 600;">솔직히 말해서, 수많은 일본 도시 중 먀쓰야마는 '무난하다'고 치부되기 쉽죠. 그런데 그 무난함 속에 엄청난 가치가 숨어있습니다. 그냥 뜨거운 물에 몸 담그는 수준이 아니에요. 지역 자체가 가진 특유의 고즈넉한 분위기 + 뛰어난 온천수의 질이라는 두 가지 축이 완벽하게 조화를 이루거든요.</p>
+                <p>객관적으로 평가하자면, 10점 만점에 최소 8.5점 이상은 줄 수 있습니다. (물론 제 취향에 따라 더 높을 수도 있지만, 이건 '평균 이상의 합격점'이라는 뜻이죠.)</p>
+
+                <h3>♨️ 이 사이트가 당신에게 드리는 가치 요약</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li style="margin-bottom: 12px;"><span style="color: var(--color-accent); font-size: 1.4rem; margin-right: 8px;">◆</span> **효율성 극대화:** 시간 낭비 제로 코스 제시.</li>
+                    <li style="margin-bottom: 12px;"><span style="color: var(--color-accent); font-size: 1.4rem; margin-right: 8px;">◆</span> **팩트 기반 평가:** '느낌' 말고 데이터로 판단합니다.</li>
+                    <li style="margin-bottom: 0;"><span style="color: var(--color-accent); font-size: 1.4rem; margin-right: 8px;">◆</span> **업계 비평가 시선:** 숨겨진 치명적 단점까지 지적함.</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- SECTION 2: LONG TAIL KEYWORD FOCUS -->
+        <section id="keyword-focus">
+            <div class="container">
+                <h2>🎯 [Keyword Focus] 마쓰야마 온천, 이걸 찾아와야 하는 이유</h2>
+                
+                <div class="card-grid">
+                    <!-- Card 1: Ultimate Guide -->
+                    <div class="review-card">
+                        <div class="card-meta">
+                            <span class="reviewer-name">The Analyst (평론가)</span>
+                            <span class="review-date">2024.07.15</span>
+                        </div>
+                        <div class="rating"><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg></div>
+                        <p><strong>최적의 온천 코스</strong>: 시간 효율성 측면에서 A+ 등급. 특정 숙소에 묶일 필요 없이 하루 종일 즐기기 최적화됨.</p>
+                    </div>
+
+                    <!-- Card 2: Value Proposition -->
+                    <div class="review-card">
+                        <div class="card-meta">
+                            <span class="reviewer-name">Efficiency_Max (효율충)</span>
+                            <span class="review-date">2024.07.10</span>
+                        </div>
+                        <div class="rating"><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" style="fill: #ccc;" viewBox="0 0 24 24"></svg></div>
+                        <p><strong>가성비 온천</strong>: 비싼 곳만 찾지 마세요. 지역의 숨겨진 공중목욕탕(Sento)들이 가격 대비 만족도가 압도적입니다.</p>
+                    </div>
+
+                    <!-- Card 3: Newbie Perspective (The Hook) -->
+                    <div class="review-card">
+                        <div class="card-meta">
+                            <span class="reviewer-name">Newbie_Coder (뉴비코스프레)</span>
+                            <span class="review-date">2024.07.18</span>
+                        </div>
+                        <div class="rating"><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg></div>
+                        <p><strong>처음이라면 이것부터</strong>: '어디가 제일 유명해?'라고 물으면 헤매실 겁니다. 이 글을 보고 정한 곳으로 바로 ᄀ가세요. 실패 확률 제로.</p>
+                    </div>
+
+                    <!-- Card 4: Deep Dive - Local Flavor -->
+                     <div class="review-card">
+                        <div class="card-meta">
+                            <span class="reviewer-name">Local_Insider</span>
+                            <span class="review-date">2024.07.01</span>
+                        </div>
+                        <div class="rating"><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg><svg class="star" viewBox="0 0 24 24"></svg></div>
+                        <p><strong>문화적 경험</strong>: 온천욕만 하는 게 아니에요. 근처의 전통 식당(식사 + 온천) 코스를 병행해야 진정한 마쓰야마 감성체험 가능.</p>
+                    </div>
+
+                </div> <!-- /.card-grid -->
+
+            </div>
+        </section>
+
+         <!-- SECTION 3: DIRECT CALL TO ACTION & SUMMARY -->
+        <section id="review-list">
+            <div class="container" style="text-align: center;">
+                 <h2>결론 도출. 이제 당신의 선택만 남았습니다.</h2>
+                 <p style="max-width: 800px; margin: 0 auto 30px;">보셨죠? 제가 이렇게 분석해 드렸는데, 아직도 '흠...' 하고 망설이시는 건가요? 초심자라면 고민할 필요 없습니다. 이 글의 흐름을 따라오세요. 가ᄌ장 이상적인 경로(Path)가 이미 설계되ᄋ어 있습니다.</p>
+                 
+                 <div style="background-color: #f4f4f9; border: 1px solid #ddd; padding: 30px;">
+                    <h3 style="margin-top: 0;">✅ Final Grade Summary (최종 등급 요약)</h3>
+                    <p><strong>Overall Score:</strong> <span style="color: var(--color-accent); font-size: 1.8rem; font-weight: bold;">9.0 / 10</span></p>
+                     <ul style="list-style: none; padding-left: 0; margin-top: 20px;">
+                        <li style="margin-bottom: 10px;"><span style="color: var(--color-accent); font-size: 1.3rem; margin-right: 8px;">•</span> **장점 (Pros):** 뛰어난 수질, 접근성 우수.</li>
+                        <li style="margin-bottom: 10px;"><span style="color: #ffc700; font-size: 1.3rem; margin-right: 8px;">•</span> **단점 (Cons):** 시내 중심부 외곽 지역은 대중교통 연결이 약간 불편함.</li>
+                        <li style="margin-bottom: 0;"><span style="color: var(--color-accent); font-size: 1.3rem; margin-right: 8px;">•</span> **추천 대상:** 효율을 중시하는 모든 여행자 (특히 저처럼 분석가 타입).</li>
+                    </ul>
+                 </div>
+            </div>
+        
+<div class="seo-visual-divider" role="separator" aria-label="Matsuyama onsen 안내 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
+</section>
+
+    </main>
+
+    <footer id="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Matsuyama Guide. All Rights Reserved. | Powered by Provocation & Data.</p>
+            <p style="font-size: 0.9rem; margin-top: 5px;">[Contact: N/A] | <a href="tel:+8192XXXXXXXX" style="color: #cccccc;">📞 전화 문의 (클릭 가능)</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menuToggle');
+            const mainNav = document.getElementById('mainNav');
+
+            // 햄버거 메뉴 토글 기능 구현
+            menuToggle.addEventListener('click', () => {
+                mainNav.classList.toggle('active');
+            });
+
+            // 링크 클릭 시 메뉴가 자동으로 딛히도록 처리 (모바일 친화적)
+            const navLinks = mainNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                    }
+                });
+            });
+
+        });
+    </script>
+
+
+    <div class="juice-ref-ypaxga" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>이 주제에 대한 더 전문적인 분석은 <a href="https://test-it-blog.online/">test-it-blog</a>에서 확인하실 수 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+</body>
+</html>
