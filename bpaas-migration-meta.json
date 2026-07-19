@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "importedAt": "2026-07-03T07:40:49.583Z",
+  "campaignId": null,
+  "slug": "matsuyama-onsen",
+  "adoptExisting": true,
+  "sourceType": "urlSnapshot",
+  "sourceUrl": "https://matsuyama-onsen-guide.pbn-builder.xyz/",
+  "copiedFiles": 2,
+  "copiedBytes": 23524,
+  "fetchedAssets": 1,
+  "skippedAssets": 0,
+  "skippedSymlinks": 0
+}
