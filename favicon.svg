@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <defs><linearGradient id="bgmats" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#b71c1c"/><stop offset="100%" stop-color="#e65100"/>
-  </linearGradient></defs>
-  <rect width="32" height="32" rx="6" fill="url(#bgmats)"/>
-  <polygon points="16,2 20,12 30,12 22,18 25,28 16,22 7,28 10,18 2,12 12,12" fill="rgba(183,28,28,0.9)" stroke="rgba(230,81,0,0.6)" stroke-width="2"/>
-  <text x="16" y="21" text-anchor="middle" fill="#fff" font-size="8" font-weight="700" font-family="system-ui">MA</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Matsuyama onsen 안내</title>
+  <rect width="64" height="64" rx="17" fill="hsl(55 54% 28%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(164 68% 67%)" opacity="0.16"/>
+  <g transform="rotate(90 32 32)"><path d="M44 20a17 17 0 1 0 6 14" fill="none" stroke="hsl(55 24% 96%)" stroke-width="6" stroke-linecap="round"/><circle cx="44" cy="20" r="5" fill="hsl(164 68% 67%)"/></g>
 </svg>
