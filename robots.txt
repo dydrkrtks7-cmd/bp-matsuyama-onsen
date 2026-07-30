@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yonggang-massage-note.shirtslab-mapo.xyz/sitemap.xml
-Sitemap: https://yonggang-massage-note.shirtslab-mapo.xyz/sitemap-pages.xml
+Sitemap: https://matsuyama-onsen-guide.pbn-builder.xyz/sitemap.xml
+Sitemap: https://matsuyama-onsen-guide.pbn-builder.xyz/sitemap-pages.xml
